@@ -34,17 +34,17 @@ To connect your Auth0 account to WeWeb, you’ll need to copy/paste 2 pieces of 
 - they are logged out – for example a login page
 - they are signed in – for example a profile page
 
-![Screen Shot 2022-01-04 at 10.23.20.png](https://aws1.discourse-cdn.com/business6/uploads/weweb/original/1X/2792b1bbe0392a77338af833be8a9aff8d9e79a2.png)
+![Redirections](https://weweb-changelog.ghost.io/content/images/2022/11/step2.png))
 
 # Step 3 – Define User Groups
 
 👉 To define user groups in WeWeb, you first need to create user roles in Auth0 > “User Management” > “Roles” > “Create Role”
 
-![Screen Shot 2022-01-04 at 10.26.56.png](https://aws1.discourse-cdn.com/business6/uploads/weweb/original/1X/932ccc07cbe8cf259b1eaed56e8ab48bef6ff5d2.png)
+![Create role](https://weweb-changelog.ghost.io/content/images/2022/11/step3a.png)
 
 👉 Then, you can assign roles to users in “User Management” > “Users” > “Assign Roles”
 
-![Screen Shot 2022-01-04 at 10.36.25.png](https://aws1.discourse-cdn.com/business6/uploads/weweb/original/1X/1229d8ecfa3daba5eeb18dfe8cf859aa19d1c5df.png)
+![Assign role](https://weweb-changelog.ghost.io/content/images/2022/11/step3b.png)
 
 Once you have user roles in Auth0, you can define user groups in WeWeb in two steps:
 
@@ -52,7 +52,7 @@ Once you have user roles in Auth0, you can define user groups in WeWeb in two st
 
 👉  2- Select Auth0 user role(s) that will be added to your WeWeb user group
 
-![Screen Shot 2022-01-04 at 11.18.57.png](https://aws1.discourse-cdn.com/business6/uploads/weweb/original/1X/1229d8ecfa3daba5eeb18dfe8cf859aa19d1c5df.png)
+![User group](https://weweb-changelog.ghost.io/content/images/2022/11/step3c.png)
 
 # Step 4 – Manage Access To Pages Based on Login Status and User Roles
 
@@ -60,7 +60,7 @@ By default, when you add a new empty page in your WeWeb app, everybody can acces
 
 You can limit access to your WeWeb app at page level. 
 
-![Screen Shot 2022-01-04 at 11.52.47.png](https://aws1.discourse-cdn.com/business6/uploads/weweb/original/1X/1229d8ecfa3daba5eeb18dfe8cf859aa19d1c5df.png)
+![Access](https://weweb-changelog.ghost.io/content/images/2022/11/step4a.png)
 
 👉 Go to the page settings > “Private access”
 
