@@ -1,6 +1,6 @@
 # Auth0 plugin
 
-To start setting-up Auth0 plugin in WeWeb, there are two pre-requisites: 
+To start setting-up Auth0 plugin in WeWeb , there are two pre-requisites: 
 
 ✅ 1- you already have an account with Auth0, it’s free for up to 7,000 active users
 
